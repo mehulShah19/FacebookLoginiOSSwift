@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26F57EB45299061BD8B0BDCF /* Pods_FacebookIntegrationUsingObjectiveFrameworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C734F871BC0B6BB8E706E97E /* Pods_FacebookIntegrationUsingObjectiveFrameworkUITests.framework */; };
 		2A411AA41D78432500707E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A411AA31D78432500707E26 /* AppDelegate.swift */; };
 		2A411AA61D78432500707E26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A411AA51D78432500707E26 /* ViewController.swift */; };
 		2A411AA91D78432500707E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A411AA71D78432500707E26 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		2A411AAE1D78432500707E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A411AAC1D78432500707E26 /* LaunchScreen.storyboard */; };
 		2A411AB91D78432600707E26 /* FacebookIntegrationUsingObjectiveFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A411AB81D78432600707E26 /* FacebookIntegrationUsingObjectiveFrameworkTests.swift */; };
 		2A411AC41D78432600707E26 /* FacebookIntegrationUsingObjectiveFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A411AC31D78432600707E26 /* FacebookIntegrationUsingObjectiveFrameworkUITests.swift */; };
+		2A411AD21D78439F00707E26 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A411AD11D78439F00707E26 /* Bolts.framework */; };
+		2A411AD41D7843AE00707E26 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A411AD31D7843AE00707E26 /* FBSDKLoginKit.framework */; };
+		2A411AD61D7843C700707E26 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A411AD51D7843C700707E26 /* FBSDKCoreKit.framework */; };
+		2AA019DD1D79293200E8531B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2AA019DC1D79293200E8531B /* .gitignore */; };
+		392B1A01E248EFD7A472BA15 /* Pods_FacebookIntegrationUsingObjectiveFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C6CC439AFED9BFD31F82B3 /* Pods_FacebookIntegrationUsingObjectiveFramework.framework */; };
+		8D1469C0C915D788AC496E09 /* Pods_FacebookIntegrationUsingObjectiveFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BCB3AACC64ECC3B8A511D4 /* Pods_FacebookIntegrationUsingObjectiveFrameworkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09BCB3AACC64ECC3B8A511D4 /* Pods_FacebookIntegrationUsingObjectiveFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookIntegrationUsingObjectiveFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		201847C8E16A5F477C4D1457 /* Pods-FacebookIntegrationUsingObjectiveFrameworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookIntegrationUsingObjectiveFrameworkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookIntegrationUsingObjectiveFrameworkUITests/Pods-FacebookIntegrationUsingObjectiveFrameworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2A411AA01D78432500707E26 /* FacebookIntegrationUsingObjectiveFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookIntegrationUsingObjectiveFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A411AA31D78432500707E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A411AA51D78432500707E26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,17 @@
 		2A411ABF1D78432600707E26 /* FacebookIntegrationUsingObjectiveFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookIntegrationUsingObjectiveFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A411AC31D78432600707E26 /* FacebookIntegrationUsingObjectiveFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookIntegrationUsingObjectiveFrameworkUITests.swift; sourceTree = "<group>"; };
 		2A411AC51D78432600707E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A411AD11D78439F00707E26 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		2A411AD31D7843AE00707E26 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		2A411AD51D7843C700707E26 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		2AA019DC1D79293200E8531B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		38BC44EB9B26A41DF1AA76B0 /* Pods-FacebookIntegrationUsingObjectiveFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookIntegrationUsingObjectiveFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookIntegrationUsingObjectiveFramework/Pods-FacebookIntegrationUsingObjectiveFramework.release.xcconfig"; sourceTree = "<group>"; };
+		66C6CC439AFED9BFD31F82B3 /* Pods_FacebookIntegrationUsingObjectiveFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookIntegrationUsingObjectiveFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7308291321823A52331E5E7E /* Pods-FacebookIntegrationUsingObjectiveFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookIntegrationUsingObjectiveFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookIntegrationUsingObjectiveFrameworkTests/Pods-FacebookIntegrationUsingObjectiveFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		789498988D4F69FC7C08D927 /* Pods-FacebookIntegrationUsingObjectiveFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookIntegrationUsingObjectiveFrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookIntegrationUsingObjectiveFrameworkTests/Pods-FacebookIntegrationUsingObjectiveFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		903C6A15D596AD85BDC4DA91 /* Pods-FacebookIntegrationUsingObjectiveFrameworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookIntegrationUsingObjectiveFrameworkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookIntegrationUsingObjectiveFrameworkUITests/Pods-FacebookIntegrationUsingObjectiveFrameworkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C734F871BC0B6BB8E706E97E /* Pods_FacebookIntegrationUsingObjectiveFrameworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookIntegrationUsingObjectiveFrameworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDB6FE76D6E41E9224873E2 /* Pods-FacebookIntegrationUsingObjectiveFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookIntegrationUsingObjectiveFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookIntegrationUsingObjectiveFramework/Pods-FacebookIntegrationUsingObjectiveFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A411AD41D7843AE00707E26 /* FBSDKLoginKit.framework in Frameworks */,
+				2A411AD61D7843C700707E26 /* FBSDKCoreKit.framework in Frameworks */,
+				2A411AD21D78439F00707E26 /* Bolts.framework in Frameworks */,
+				392B1A01E248EFD7A472BA15 /* Pods_FacebookIntegrationUsingObjectiveFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1469C0C915D788AC496E09 /* Pods_FacebookIntegrationUsingObjectiveFrameworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F57EB45299061BD8B0BDCF /* Pods_FacebookIntegrationUsingObjectiveFrameworkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +103,13 @@
 		2A411A971D78432500707E26 = {
 			isa = PBXGroup;
 			children = (
+				2AA019DC1D79293200E8531B /* .gitignore */,
+				2A411AD71D7843CC00707E26 /* Frameworks */,
 				2A411AA21D78432500707E26 /* FacebookIntegrationUsingObjectiveFramework */,
 				2A411AB71D78432600707E26 /* FacebookIntegrationUsingObjectiveFrameworkTests */,
 				2A411AC21D78432600707E26 /* FacebookIntegrationUsingObjectiveFrameworkUITests */,
 				2A411AA11D78432500707E26 /* Products */,
+				5B9B783E2D9A9A56444C4696 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +154,32 @@
 			path = FacebookIntegrationUsingObjectiveFrameworkUITests;
 			sourceTree = "<group>";
 		};
+		2A411AD71D7843CC00707E26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A411AD51D7843C700707E26 /* FBSDKCoreKit.framework */,
+				2A411AD31D7843AE00707E26 /* FBSDKLoginKit.framework */,
+				2A411AD11D78439F00707E26 /* Bolts.framework */,
+				66C6CC439AFED9BFD31F82B3 /* Pods_FacebookIntegrationUsingObjectiveFramework.framework */,
+				09BCB3AACC64ECC3B8A511D4 /* Pods_FacebookIntegrationUsingObjectiveFrameworkTests.framework */,
+				C734F871BC0B6BB8E706E97E /* Pods_FacebookIntegrationUsingObjectiveFrameworkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B9B783E2D9A9A56444C4696 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECDB6FE76D6E41E9224873E2 /* Pods-FacebookIntegrationUsingObjectiveFramework.debug.xcconfig */,
+				38BC44EB9B26A41DF1AA76B0 /* Pods-FacebookIntegrationUsingObjectiveFramework.release.xcconfig */,
+				7308291321823A52331E5E7E /* Pods-FacebookIntegrationUsingObjectiveFrameworkTests.debug.xcconfig */,
+				789498988D4F69FC7C08D927 /* Pods-FacebookIntegrationUsingObjectiveFrameworkTests.release.xcconfig */,
+				201847C8E16A5F477C4D1457 /* Pods-FacebookIntegrationUsingObjectiveFrameworkUITests.debug.xcconfig */,
+				903C6A15D596AD85BDC4DA91 /* Pods-FacebookIntegrationUsingObjectiveFrameworkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A411AC81D78432600707E26 /* Build configuration list for PBXNativeTarget "FacebookIntegrationUsingObjectiveFramework" */;
 			buildPhases = (
+				D962CEDBC2C2B469A6696EAA /* [CP] Check Pods Manifest.lock */,
 				2A411A9C1D78432500707E26 /* Sources */,
 				2A411A9D1D78432500707E26 /* Frameworks */,
 				2A411A9E1D78432500707E26 /* Resources */,
+				5E70931311631755D0AF8FA8 /* [CP] Embed Pods Frameworks */,
+				49931C7F4B29B5B3BA9E03D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A411ACB1D78432600707E26 /* Build configuration list for PBXNativeTarget "FacebookIntegrationUsingObjectiveFrameworkTests" */;
 			buildPhases = (
+				750B94749E7EC241F28B70F7 /* [CP] Check Pods Manifest.lock */,
 				2A411AB01D78432600707E26 /* Sources */,
 				2A411AB11D78432600707E26 /* Frameworks */,
 				2A411AB21D78432600707E26 /* Resources */,
+				67EAED8CF538391688591044 /* [CP] Embed Pods Frameworks */,
+				74891933B20180C46081A60E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A411ACE1D78432600707E26 /* Build configuration list for PBXNativeTarget "FacebookIntegrationUsingObjectiveFrameworkUITests" */;
 			buildPhases = (
+				4DD3704ECF292662CAC35C28 /* [CP] Check Pods Manifest.lock */,
 				2A411ABB1D78432600707E26 /* Sources */,
 				2A411ABC1D78432600707E26 /* Frameworks */,
 				2A411ABD1D78432600707E26 /* Resources */,
+				45F31EE7FE9526E7724DD047 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA019DD1D79293200E8531B /* .gitignore in Resources */,
 				2A411AAE1D78432500707E26 /* LaunchScreen.storyboard in Resources */,
 				2A411AAB1D78432500707E26 /* Assets.xcassets in Resources */,
 				2A411AA91D78432500707E26 /* Main.storyboard in Resources */,
@@ -250,6 +314,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45F31EE7FE9526E7724DD047 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookIntegrationUsingObjectiveFrameworkUITests/Pods-FacebookIntegrationUsingObjectiveFrameworkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49931C7F4B29B5B3BA9E03D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookIntegrationUsingObjectiveFramework/Pods-FacebookIntegrationUsingObjectiveFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DD3704ECF292662CAC35C28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E70931311631755D0AF8FA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookIntegrationUsingObjectiveFramework/Pods-FacebookIntegrationUsingObjectiveFramework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67EAED8CF538391688591044 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookIntegrationUsingObjectiveFrameworkTests/Pods-FacebookIntegrationUsingObjectiveFrameworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74891933B20180C46081A60E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookIntegrationUsingObjectiveFrameworkTests/Pods-FacebookIntegrationUsingObjectiveFrameworkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		750B94749E7EC241F28B70F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D962CEDBC2C2B469A6696EAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A411A9C1D78432500707E26 /* Sources */ = {
@@ -399,8 +586,13 @@
 		};
 		2A411AC91D78432600707E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECDB6FE76D6E41E9224873E2 /* Pods-FacebookIntegrationUsingObjectiveFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FacebookIntegrationUsingObjectiveFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mehulShah.FacebookIntegrationUsingObjectiveFramework;
@@ -410,8 +602,13 @@
 		};
 		2A411ACA1D78432600707E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38BC44EB9B26A41DF1AA76B0 /* Pods-FacebookIntegrationUsingObjectiveFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FacebookIntegrationUsingObjectiveFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mehulShah.FacebookIntegrationUsingObjectiveFramework;
@@ -421,6 +618,7 @@
 		};
 		2A411ACC1D78432600707E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7308291321823A52331E5E7E /* Pods-FacebookIntegrationUsingObjectiveFrameworkTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FacebookIntegrationUsingObjectiveFrameworkTests/Info.plist;
@@ -433,6 +631,7 @@
 		};
 		2A411ACD1D78432600707E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789498988D4F69FC7C08D927 /* Pods-FacebookIntegrationUsingObjectiveFrameworkTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FacebookIntegrationUsingObjectiveFrameworkTests/Info.plist;
@@ -445,6 +644,7 @@
 		};
 		2A411ACF1D78432600707E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 201847C8E16A5F477C4D1457 /* Pods-FacebookIntegrationUsingObjectiveFrameworkUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FacebookIntegrationUsingObjectiveFrameworkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +656,7 @@
 		};
 		2A411AD01D78432600707E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903C6A15D596AD85BDC4DA91 /* Pods-FacebookIntegrationUsingObjectiveFrameworkUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FacebookIntegrationUsingObjectiveFrameworkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +685,7 @@
 				2A411ACA1D78432600707E26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A411ACB1D78432600707E26 /* Build configuration list for PBXNativeTarget "FacebookIntegrationUsingObjectiveFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +694,7 @@
 				2A411ACD1D78432600707E26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A411ACE1D78432600707E26 /* Build configuration list for PBXNativeTarget "FacebookIntegrationUsingObjectiveFrameworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +703,7 @@
 				2A411AD01D78432600707E26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
