@@ -32,6 +32,11 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         fbsdkLoginButton.center = view.center
         fbsdkLoginButton.delegate = self
         view.addSubview(fbsdkLoginButton)
+        
+        
+        var alamoFire = AlamofireHelper()
+        alamoFire.socialLogin("21341", login_type: "facebook", sn_token: "dada", id: "121d3d14e1e")
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -77,39 +82,61 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
             grantedFieldStringSet.insert(FacebookUserFields.pictureUrl)
         }
         
-//        if(grantedFieldStringSet.isEmpty){
-//            return
-//        }
-//        
-//        var grantedFieldString: String = ""
-//        
+        if(grantedFieldStringSet.isEmpty){
+            return
+        }
+        
+        var grantedFieldString: String = ""
+        
 //        for singleGrantedFieldString in grantedFieldStringSet{
 //            grantedFieldString += singleGrantedFieldString + ", "
+//    
 //        }
 //        grantedFieldString.removeAtIndex(grantedFieldString.endIndex.predecessor())
 //        grantedFieldString.removeAtIndex(grantedFieldString.endIndex.predecessor())
-//        
+
+        //
+        //
+        //for singleGrantedFieldString in stringSet{
+        //        grantedFieldString += singleGrantedFieldString
+        //
+        //            if(singleGrantedFieldString != stringSet[stringSet.startIndex.advancedBy(stringSet.count - 1)])
+        //            {
+        //            grantedFieldString += ", "
+        //        }
+        //        
+        //    }
         
-        FBSDKGraphRequest.init(graphPath: "me", parameters: ["fields": "first_name, last_name, picture.type(large), email"]).startWithCompletionHandler { (connection, result, error) -> Void in
+        
+        for i in 0...(grantedFieldStringSet.count as Int - 1 ){
+            grantedFieldString += grantedFieldStringSet[grantedFieldStringSet.startIndex.advancedBy(i)]
+            print(grantedFieldString)
+            if(i != (grantedFieldStringSet.count - 1)){
+                grantedFieldString += ", "
+            }
+        }
+        
+        FBSDKGraphRequest.init(graphPath: "me", parameters: ["fields": grantedFieldString]).startWithCompletionHandler { (connection, result, error) -> Void in
             if(error != nil){
                 return
             }
-            
-            result.removeObject("first_name");
             
             let strFirstName: String = (result.objectForKey(FacebookUserFields.firstName) as? String)!
             let strLastName: String = (result.objectForKey(FacebookUserFields.lastName) as? String)!
             let email : String = (result.objectForKey(FacebookUserFields.email) as? String)!
             let strPictureURL: String = (result.objectForKey("picture")?.objectForKey("data")?.objectForKey("url") as? String)!
             print("First Name \(strFirstName)  Last Name \(strLastName) Picture Url \(strPictureURL)")
+        
         }
         
 
         if(result.grantedPermissions.contains(FacebookUserFields.email)){
             
         }
-        
     }
+    
+    
+    
     
     
     func facebookLogout(){
